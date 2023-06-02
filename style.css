@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img, picture {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+body {
+    padding: 5% 5%;
+}
+
+#main-container {
+    max-width: 375px;
+}
+
+#suscription-container,
+#price-container {
+    display: flex;
+}
+
+#banner {
+    margin-bottom: 15px;
+}
+
+#bottom-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#title-container {
+    margin-bottom: 15px;
+}
+
+#content-container {
+    margin-bottom: 15px;
+}
+
+#suscription-container {
+    padding: 15px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+#price-container {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#change-button-container {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#title-container {
+    width: 100%;
+    text-align: center;
+}
+
+#content-container {
+    width: 100%;
+    text-align: center;
+}
+
+#pay-button-container {
+    margin-bottom: 15px;
+}
+
+#pay-button-container button {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+#cancel-button-container {
+    margin-bottom: 20px;
+}
+
+#cancel-button-container button {
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-mobile.svg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+}
+
+#main-container {
+    background-color: #ffff;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#title-container {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2f56;
+}
+
+#content-container {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7280a7;
+}
+
+#suscription-name {
+    font-weight: 700;
+}
+
+#suscruption-quota {
+    font-size: 16px;
+    color: #7280a7;
+}
+
+a:link {
+    color: #6900ff;
+}
+
+a:visited {
+    color: #6900ff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#pay-button-container button {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    background-color: #3829e0;
+    box-shadow: 0px 25px 5px 4px rgba(0,0,0,0.01);
+}
+
+#pay-button-container button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+#cancel-button-container button {
+    font-weight: 700;
+    color: #7280a7;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+#cancel-button-container button:hover {
+    color: #1f2f56;
+    cursor: pointer;
+}
+
+#suscription-container {
+    background-color: #f5f7ff;
+    border-radius: 10px;
+}
+
+
+
+
+@media (min-width: 576px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg); 
+    }
+}
